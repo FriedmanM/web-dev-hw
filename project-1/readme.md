@@ -10,7 +10,7 @@ First of all, direct your attention to this amazing screenshot taken on my lovel
 *Great Screenshot - Michael's Computer (2017)*
 
 
-Now that you've seen my super awesome screenshot, lets move onto other matters!
+Now that you've seen my super awesome screenshot, let's move onto other matters!
 
 ---
 
@@ -63,12 +63,12 @@ HEHEHEHE, I added this to check commits :)
 
 ### Wayback Machine Experiences
 
-I **LOVED** using the Wayback Machine. I looked at several sites to see how they have progressed. The main theme across all these websites seems to be basic text and low resolution photos. This was most likely due to the fact that the majority of people used dialup internet during the 20th Century.
+I **LOVED** using the Wayback Machine. I looked at several sites to see how they have progressed. The main theme across all these websites seems to be basic text and low-resolution photos. This was most likely due to the fact that the majority of people used dialup internet during the 20th Century.
 
-1. [FaceBook](http://www.facebook.com) was interesting to look at. It started off as a colleage and business type service, sort of like LinkedIn.
-2. [AskJeeves](http://www.askjeeves.com), now known as "Ask.com". I remember using AskJeeves when I was younger. This was before Google was popular.
+1. [Facebook](http://www.facebook.com) was interesting to look at. It started off as a colleague and business type service, sort of like LinkedIn.
+2. [Ask Jeeves](http://www.askjeeves.com), now known as "Ask.com". I remember using Ask Jeeves when I was younger. This was before Google was popular.
 3. [Dogpile](http://www.dogpile.com) was another search engine that I used as a kid. It's very interesting to see how sites have more pictures and smoother fonts.
 4. The computer store I work for, [ReCompute Computers](http://www.recomputecomputers.com) is actually pretty funny. For a tech company, we have a really basic website that is primarily used for hours of operation. I am hoping that this class can teach me the skills needed to update this site to the modern age!
-5. Another site I chose to explore was [the City of Missoula's website](http://ci.missoula.mt.us). Again, there was a lack of images, and mostly just text with some low quality buttons.
+5. Another site I chose to explore was [the City of Missoula's website](http://ci.missoula.mt.us). Again, there was a lack of images, and mostly just text with some low-quality buttons.
 
 ---
