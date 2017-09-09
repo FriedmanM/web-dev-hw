@@ -41,6 +41,8 @@ Since it seems like you are still here, let me now talk about the good things!
 
 All in all, now that I have things sorta-kinda figured out, I feel like I am going to thoroughly enjoy this class. I have always had an interest in coding and programming, and since I am still an *undeclared* student, this class is making me consider it as a career choice.
 
+I've just tried the commit feature with the Version Control System. I rather enjoy the fact that you can go back and see the changes made.
+
 ---
 
 ### BONUS FEATURE:
