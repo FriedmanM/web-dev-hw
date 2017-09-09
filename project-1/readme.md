@@ -7,7 +7,7 @@
 
 First of all, direct your attention to this amazing screenshot taken on my lovely computer!
 ![screenshotofmydirectory](./images/screenshot1.png)
-*Great Screenshot - Michael's Computer*
+*Great Screenshot - Michael's Computer (2017)*
 
 
 Now that you've seen my super awesome screenshot, lets move onto other matters!
