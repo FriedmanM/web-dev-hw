@@ -34,6 +34,7 @@ Since it seems like you are still here, let me now talk about the good things!
 - I learned that I was *NOT* alone in my beginning frustrations.
 - I think this class is going to be fun!
 - I realized that markdown is similar to the formatting settings on [Reddit's](http://www.reddit.com) website.
+- Things that work in Reddit that work in markdown like ```*Italic*``` would make the text Italic.
 
 ---
 
