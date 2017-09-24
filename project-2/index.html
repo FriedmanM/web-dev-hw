@@ -1,18 +1,99 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <!-- Viewport defined -->
+           <!-- Viewport defined -->
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <!-- Character set defined -->
+           <!-- Character set defined -->
         <meta charset="utf-8" />
-        <!-- Description of my website -->
+           <!-- Description of my website -->
         <meta name="description" content="Project 2 Website!" />
-        <!-- Author of the website (me) -->
+           <!-- Author of the website (me) -->
         <meta name="author" content="Michael Friedman" />
-        <!-- Title of my page -->
+           <!-- Title of my page -->
         <title>Project 2: Electric Boogaloo</title>
+           <!-- Style & Background Stuff -->
+        <style>
+/* Most margins are modified to make the spacing on the page look better */
+    /* Added padding to bottom of page for better scrolling */
+           body {background-color: lightgreen;
+                 padding-bottom: 500px;
+                 margin-left: 12px;}
+           li {font-size: 110%;
+               margin-top: 0;
+               margin-bottom: 4px;}
+           h1 {margin-bottom: 3px;}
+           h2 {margin-top: 10px;
+               margin-bottom: 2px;}
+           h3 {margin-top: 0;
+               margin-bottom: 0;}
+           h4 {margin-top: 0;}
+           ol {margin-top: 0;
+               margin-bottom: 0;}
+           p {margin-top: 0;
+              margin-bottom: 0;}
+           blockquote {margin-top: 9px;
+                       margin-bottom: 9px;}
+/* added special bullet image */
+           ul {list-style-image: url("images/bullet.png");
+               margin-top: 0;
+               margin-bottom: 0;}
+/* Added class to reduce indent on nested ul and remove special image */
+           .less {padding-left: 20px;
+                  list-style-image: none;}
+/* Added class to add some indent to additional ingredient list */
+           .indented {padding-left: 20px;}
+        </style>
     </head>
-    <body>
-      <!-- Stuff -->
+      <body>
+      <!-- Start of Recipe -->
+        <h1>Killer Garlic Bread</h1>
+          <h3><i>Recipe and website by:</i> <u>Michael Friedman</u></h3>
+            <blockquote>"After waking up, I take my vitamins and eat fruit or,
+                      sometimes, bread with garlic, which is good for your health."<br />
+                      -Jordi Molla
+            </blockquote>
+          <hr />
+      <!-- I LOVE GARLIC BREAD!!! -->
+        <h2>Total Time: 12 Minutes</h2>
+        <h4>Servings: About 4</h4>
+      <!-- Ingredient List -->
+          <h3><u>Ingredients:</u></h3>
+      <br />
+            <ul>
+              <li>4 Garlic Cloves</li>
+                <li>3<sup>tbsp</sup> Butter</li>
+                  <li>3<sup>tbsp</sup> <abbr title="Extra Virgin Olive Oil">E.V.O.O.</abbr></li>
+                <li>1 Loaf of Crispy Bread, (<em>Sourdough</em> is perfect)</li>
+              <li>4<sup>tbsp</sup> Grated Cheese (<em>Romano</em> or <em>Parmesan</em> are great!)</li>
+            </ul>
+          <p class="indented"><del>Optional</del> <b><u>Mandatory</u></b> <i>(to taste):</i></p>
+            <ul>
+              <li>Fresh Basil (chopped)</li>
+                <li>Fresh Rosemary (chopped)</li>
+            </ul>
+      <br />
+      <!-- Start Preparation And Cooking -->
+          <h3><u>Directions:</u></h3>
+      <br />
+            <ol>
+              <li>Crush and chop garlic.</li>
+                <ul class="less">
+                  <li><b>Pro tip:</b> <i>Place a knife on its side, over the
+                    garlic, and hit it with your palm. <strong>BE CAREFUL!</strong></i></li>
+                </ul>
+              <li>Slice bread on one side and spread open (like a <cite>Subway<sup>TM</sup></cite> sandwich).</li>
+                <li>Place bread in oven on <q>Broil</q> setting until golden brown.</li>
+                  <li>Combine garlic, oil, and butter in a <em><strong>microwave safe</strong></em> dish.</li>
+                    <li>Microwave for 1-2 minutes or until melted.</li>
+                      <li><del>Pour</del> Brush mixture onto bread.</li>
+                        <li>Sprinkle cheese and herbs onto bread.</li>
+                          <li>Place back into oven for 30 seconds to brown.</li>
+                            <li>Cut into pieces and serve!</li>
+                              <!-- <li>SPEND ALL YOUR MONEY ON GARLIC BREAD STUFF</li> -->
+            </ol>
+<br />
+<br />
+      <p><strong>Warning:</strong> Children under 12 should not use an oven or knives
+          without <strong>parental supervision.</strong></p>
     </body>
 </html>
