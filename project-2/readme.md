@@ -23,3 +23,12 @@ I played around with the ```<style>``` tag and made my background light green! I
 I hope people enjoy my recipe!
 
 I just wanted to note that I hope to learn some better ways to make text spacing on these pages easier to do. I spent a lot of time modifying margins on this website.
+
+### Onto Part 2!
+I am now preparing to start part 2 of the homework assigment! It looks like we're adding more pages and features to our sites!
+
+I've just learned about external linking and email links. It is really cool that you are able to set up a direct link to have people email you. The only issue I've ever run into on those links in my experience is the fact that if you do not have an email client set up on the computer, it'll default to opening the default client and annoy you to set up your email in it.
+
+Cool! So you use ```..``` and ```.``` to specify folder structures for internal links! I use these shortcuts in command prompt, terminal, and bash, when repairing computers!
+
+The ```id``` function will be very useful as well, especially if you want to link to a specific section of a page!
