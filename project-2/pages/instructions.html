@@ -13,37 +13,32 @@
         <title>Killer Garlic Bread: Instructions</title>
            <!-- Style & Background Stuff -->
         <style>
-/* Most margins are modified to make the spacing on the page look better */
-    /* Added padding to bottom of page for better scrolling */
-           body {background-color: lightgreen;
-                 padding-bottom: 400px;
-                 margin-left: 12px;}
-           li {font-size: 110%;
-               margin-top: 0;
-               margin-bottom: 4px;}
-           h1 {margin-top: 14px;
-               margin-bottom: 3px;}
-           h2 {margin-top: 12px;
-               margin-bottom: 3px;}
-           h3 {margin-top: 0;
-               margin-bottom: 0;}
-           h4 {margin-top: 0;}
-           ol {margin-top: 0;
-               margin-bottom: 0;}
-           p {margin-top: 0;
-              margin-bottom: 0;}
-           blockquote {margin-top: 9px;
-                       margin-bottom: 9px;}
-/* added special bullet image */
-           ul {list-style-image: url("images/bullet.png");
-               margin-top: 0;
-               margin-bottom: 0;}
-/* Added class to reduce indent on nested ul and remove special image */
-           .less {margin-left: -21px;
-                  list-style-image: none;}
-/* Added class to add some indent to additional ingredient list */
-           .indented {padding-left: 20px;
-                      margin-bottom: 5px;}
+        body {background-color: lightgreen;
+              padding-bottom: 400px;
+              margin-left: 12px;}
+        li {font-size: 110%;
+            margin-top: 0;
+            margin-bottom: 4px;}
+        h1 {margin-top: 14px;
+            margin-bottom: 3px;}
+        h2 {margin-top: 12px;
+            margin-bottom: 3px;}
+        h3 {margin-top: 0;
+            margin-bottom: 0;}
+        h4 {margin-top: 0;}
+        ol {margin-top: 0;
+            margin-bottom: 0;}
+        p {margin-top: 0;
+           margin-bottom: 0;}
+        blockquote {margin-top: 9px;
+                    margin-bottom: 9px;}
+    /* Added table style */
+           table, th, td {border: 3px solid black;
+                          border-collapse: collapse;
+                          background-color: lightgreen;
+                          padding-left: 6px;
+                          padding-right: 6px;}
+           img  {vertical-align: middle;}
         </style>
     </head>
        <body>
@@ -51,24 +46,87 @@
            <h3><i>Recipe and website by:</i> <u><i>Michael Friedman</i></u></h3>
     <hr />
          <!-- Start Preparation And Cooking -->
-            <h3><u>Directions:</u></h3>
          <br />
-               <ol>
-                 <li>Crush and chop garlic.</li>
-                   <ul class="less">
-                     <li><b>Pro tip:</b> <i>Place a knife on its side, over the
-                       garlic, and hit it with your palm. <strong>BE CAREFUL!</strong></i></li>
-                   </ul>
-                 <li>Slice bread on one side and spread open (like a <cite>Subway<sup>TM</sup></cite> sandwich).</li>
-                   <li>Place bread in oven on <q>Broil</q> setting until golden brown.</li>
-                     <li>Combine garlic, oil, and butter in a <em><strong>microwave safe</strong></em> dish.</li>
-                       <li>Microwave for 1-2 minutes or until melted.</li>
-                         <li><del>Brush</del> Pour mixture onto bread liberally.</li>
-                           <li>Sprinkle cheese and herbs onto bread.</li>
-                             <li>Place back into oven for 30 seconds to brown.</li>
-                               <li>Cut into pieces and serve!</li>
-                                  <li>SPEND ALL YOUR MONEY ON GARLIC BREAD STUFF</li>
-               </ol>
+            <div style="text-align: center;"><h2><u>Directions:</u></h2></div>
+         <br />
+           <table align="center">
+              <tr>
+                <th></th>
+                <th scope="col">Instructions</th>
+                <th scope="col">Helpful Pictures</th>
+                <th scope="col">Tips</th>
+              </tr>
+              <tr>
+                <th scope="row">Step 1</th>
+                  <td>Crush and chop garlic</td>
+                  <td><div style="text-align: center;">
+                      <img src="../images/garlic.jpg"
+                       alt="Image of garlic being minced by a sharp knife" title="Minced Garlic" width="125" height="100"> </div></td>
+                  <td>Place a knife on its side, over the garlic, and hit it with your palm. <strong>BE CAREFUL!</strong></td>
+              </tr>
+              <tr>
+                <th scope="row">Step 2</th>
+                  <td>Slice bread on one side and spread open</td>
+                  <td><div style="text-align: center;">
+                      <img src="../images/breadsplit.jpg"
+                       alt="Image of bread that was cut in half, sandwhich style" title="Bread sliced in half" width="125" height="100"></div></td>
+                  <td>Think Subway<sup>TM</sup> sandwiches.</td>
+              </tr>
+                <th scope="row">Step 3</th>
+                  <td>Place bread in oven on Broil setting until golden brown</td>
+                  <td><div style="text-align: center;">
+                      <img src="../images/breadoven1.jpg"
+                       alt="Image of bread being put in an oven" title="Bread in an oven" width="125" height="100"></div></td>
+                  <td>Use oven mitts!</td>
+              <tr>
+                <th scope="row">Step 4</th>
+                  <td>Combine garlic, oil, and butter in a <em>microwave safe dish</em></td>
+                  <td><div style="text-align: center;">
+                      <img src="../images/garlicbutter.jpg"
+                       alt="Image of garlic, butter, and oil mixed together" title="Garlic, butter, and oil mixture" width="125" height="100"></div></td>
+                  <td>Make sure to stir the mixture well.</td>
+              </tr>
+              <tr>
+                <th scope="row">Step 5</th>
+                  <td>Microwave for 1-2 minutes or until melted</td>
+                  <td><div style="text-align: center;">
+                      <img src="../images/garlicbuttermelted.jpg"
+                       alt="Image of garlic butter that has been mixed and melted" title="Melted garlic butter" width="125" height="100"></div></td>
+                  <td>Stir the mixture <em><b>again</b></em> when it comes out.</td>
+              </tr>
+              <tr>
+                <th scope="row">Step 6</th>
+                  <td><del>Brush</del> Pour mixture onto bread liberally</td>
+                  <td><div style="text-align: center;">
+                      <img src="../images/garlicbreadspread.jpg"
+                       alt="Image of melted garlic butter getting spread onto bread with a spoon" title="Garlic butter being spread on bread" width="125" height="100"></div></td>
+                  <td>If you don't have a brush, you can use a spoon or you can pour directly on the bread</td>
+              </tr>
+              <tr>
+                <th scope="row">Step 7</th>
+                  <td>Sprinkle cheese and herbs onto bread</td>
+                  <td><div style="text-align: center;">
+                      <img src="../images/cheeseonbread.jpg"
+                       alt="Image of a person's hand putting cheese on bread" title="Cheese sprinkled on bread" width="125" height="100"></div></td>
+                  <td>Add as much cheese as you'd like. Now's a good time to put any other ingredient you'd like.</td>
+              </tr>
+              <tr>
+                <th scope="row">Step 8</th>
+                  <td>Place back into oven for 30 seconds to brown</td>
+                  <td><div style="text-align: center;">
+                      <img src="../images/breadoven2.jpg"
+                       alt="Image of bread covered in toppings on a pan, getting ready for the oven" title="Garlic bread on pan" width="125" height="100"></div></td>
+                  <td>You can add cheese, sauces, herbs, or anything you'd like!</td>
+              </tr>
+              <tr>
+                <th scope="row">Step 9</th>
+                  <td>Cut into pieces and serve</td>
+                  <td><div style="text-align: center;">
+                      <img src="../images/garlicbreadcut.jpeg"
+                       alt="Image of garlic bread cut up and ready to serve" title="Garlic bread ready to serve" width="125" height="100"></div></td>
+                  <td>You can get fancy with it if you'd like, or just eat it right off the pan!</td>
+              </tr>
+                </table>
          <br />
          <br />
          <p><strong>Warning:</strong> Children under 12 should not use an oven or knives
