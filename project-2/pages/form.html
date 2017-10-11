@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+    <head>
+           <!-- Viewport defined -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+           <!-- Character set defined -->
+        <meta charset="utf-8" />
+           <!-- Description of my website -->
+        <meta name="description" content="Project 2 Website!" />
+           <!-- Author of the website (me) -->
+        <meta name="author" content="Michael Friedman" />
+           <!-- Title of my page -->
+        <title>Killer Garlic Bread: Instructions</title>
+           <!-- Style & Background Stuff -->
+        <style>
+        body {background-color: lightgreen;
+              padding-bottom: 400px;
+              margin-left: 12px;}
+        li {font-size: 110%;
+            margin-top: 0;
+            margin-bottom: 4px;}
+        h1 {margin-top: 14px;
+            margin-bottom: 3px;}
+        h2 {margin-top: 12px;
+            margin-bottom: 3px;}
+        h3 {margin-top: 0;
+            margin-bottom: 0;}
+        h4 {margin-top: 0;}
+        ol {margin-top: 0;
+            margin-bottom: 0;}
+        blockquote {margin-top: 9px;
+                    margin-bottom: 9px;}
+        </style>
+    </head>
+  <body>
+    <h1>Killer Garlic Bread</h1>
+      <h3><i>Recipe and website by:</i> <u><i>Michael Friedman</i></u></h3>
+<hr />
+<br />
+    <div style="text-align: center;"><h2><u>Survey:</u></h2></div>
+<br />
+    <form action="https://www.example.com/add.php" method="post">
+      <fieldset>
+        <label>Name:<br />
+          <input type="text" name="name" required autofocus placeholder="Type name here" /></label>
+<br />
+          <label>Email:<br />
+            <input type="text" name="email" required placeholder="Type email here" /></label>
+        <p>
+            Gender:
+            <input id="male" type="radio" name="gender" value="m">
+            <label for="male"> Male </label>
+            <input id="female" type="radio" name="gender" value="f">
+            <label for="female"> Female </label>
+        </p>
+        <p>
+            Where did you hear about this site?:
+<br />
+            <input type="checkbox" name="service" value="google" /> Google
+<br />
+            <input type="checkbox" name="service" value="cooking" /> Cooking.com
+<br />
+            <input type="checkbox" name="service" value="yahoo" /> Yahoo
+<br />
+            <input type="checkbox" name="service" value="other" /> Other
+<br />
+        </p>
+        <p>
+            Did you enjoy this recipe?:
+            <input id="yes" type="radio" name="answer" value="y" checked>
+            <label for="yes"> Yes </label>
+            <input id="no" type="radio" name="answer" value="n">
+            <label for="no"> No </label>
+        </p>
+        <p>
+            Select your age group:
+        </p>
+            <select name="age_group">
+              <option value="12-14">12-14</option>
+              <option value="15-17">15-17</option>
+              <option value="18-20">18-20</option>
+              <option value="21-24">21-24</option>
+              <option value="25-35">25-35</option>
+              <option value="36-45">36-45</option>
+              <option value="46andup">46+</option>
+            </select>
+        <p>
+            Would you like to upload a photo of your garlic bread?:
+        </p>
+            <input type="file" name="user-song" />
+<br />
+            <input type="submit" value="Upload" />
+<br />
+<br />
+            <div style="text-align: center;"><input type="submit" name="submit" value="Submit" /></div>
+    </fieldset>
+<br />
+    <a href="./instructions.html">Go back to Instructions</a>
+<br />
+<br />
+    <a href="../index.html">Back to Home</a>
+</form>
+  </body>
+</html>
