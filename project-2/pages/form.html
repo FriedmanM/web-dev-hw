@@ -41,20 +41,21 @@
 <br />
     <form action="https://www.example.com/add.php" method="post">
       <fieldset>
-        <label>Name:<br />
-          <input type="text" name="name" required autofocus placeholder="Type name here" /></label>
+        <label><b>Name:</b><br />
+          <input type="text" name="name" required autofocus placeholder="Type name here..." /></label>
 <br />
-          <label>Email:<br />
-            <input type="text" name="email" required placeholder="Type email here" /></label>
-        <p>
-            Gender:
+          <label><b>Email:</b>
+<br />
+            <input type="text" name="email" required placeholder="Type email here..." /></label>
+        <p><b>
+            Gender:</b>
             <input id="male" type="radio" name="gender" value="m">
             <label for="male"> Male </label>
             <input id="female" type="radio" name="gender" value="f">
             <label for="female"> Female </label>
         </p>
-        <p>
-            Where did you hear about this site?:
+        <p><b>
+            Where did you hear about this site?:</b>
 <br />
             <input type="checkbox" name="service" value="google" /> Google
 <br />
@@ -65,16 +66,15 @@
             <input type="checkbox" name="service" value="other" /> Other
 <br />
         </p>
-        <p>
-            Did you enjoy this recipe?:
+        <p><b>
+            Did you enjoy this recipe?:</b>
             <input id="yes" type="radio" name="answer" value="y" checked>
             <label for="yes"> Yes </label>
             <input id="no" type="radio" name="answer" value="n">
             <label for="no"> No </label>
         </p>
-        <p>
-            Select your age group:
-        </p>
+        <p><b>
+            Select your age group:</b>
             <select name="age_group">
               <option value="12-14">12-14</option>
               <option value="15-17">15-17</option>
@@ -84,8 +84,9 @@
               <option value="36-45">36-45</option>
               <option value="46andup">46+</option>
             </select>
-        <p>
-            Would you like to upload a photo of your garlic bread?:
+        </p>
+        <p><b>
+            Would you like to upload a photo of your garlic bread?:</b>
         </p>
             <input type="file" name="user-song" />
 <br />
