@@ -32,3 +32,5 @@ I've just learned about external linking and email links. It is really cool that
 Cool! So you use ```..``` and ```.``` to specify folder structures for internal links! I use these shortcuts in command prompt, terminal, and bash, when repairing computers!
 
 The ```id``` function will be very useful as well, especially if you want to link to a specific section of a page!
+
+I really liked the table making. It was a little confusing at first, but the outcome was great. The instructions page I made came out great.
