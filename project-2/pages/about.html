@@ -7,20 +7,55 @@
             <meta name="author" content="Michael Friedman" />
           <title>About Me</title>
       <style>
-        body {background-color: lightgreen;
+        body {
+              background-color: lightgreen;
               padding-bottom: 400px;
               margin-left: 12px;}
+        .container {
+                    position: relative;
+                    width: 100%;
+                    height: 0;
+                    padding-bottom: 56.25%;}
+        .img-or-map {
+              position: absolute;
+              top: 0;
+              left: 0;
+              width: 100%;
+              height: 100%;}
       </style>
     </head>
     <body>
       <h1>Killer Garlic Bread</h1>
         <h3><i>Recipe and website by:</i> <u><i>Michael Friedman</i></u></h3>
           <hr />
-        <h2><u>About the Author</u>:</h2>
-        <p>Michael Friedman is a 28 year old computer technician who is returning to school to move up in ranks in the information technology field. He has a very deep love for people, nature, and garlic bread.</p>
-        <p>In the next 5 years, Michael hopes to open and run a garlic bread themed tech support company. Maybe he'll bake fresh garlic bread and give it away with repairs! Maybe he'll have a bakery/tech repair store! One thing is for certain though, he loves his garlic bread.</p>
-        <p></p>
+        <h2 id="about-author-heading"><u>About the Author</u>:</h2>
+          <div class="container">
+            <img id="michael-and-cat" class="img-or-map" src="../images/michael-and-cat.jpeg"
+             alt="Image of Michael (the author) and his cat" title="Michael Friedman and his cat, Claire" />
+              </div>
+                <p class="about-me-p" id="about-me-p1">Michael Friedman is a 28 year old computer technician who is returning to school to move up in ranks in the information technology field. He has a very deep love for people, nature, and garlic bread.</p>
+                  <p class="about-me-p" id="about-me-p2">In the next 5 years, Michael hopes to open and run a garlic bread themed tech support company. Maybe he'll bake fresh garlic bread and give it away with repairs! Maybe he'll have a bakery/tech repair store!</p>
+                    <p class="about-me-p" id="about-me-p3">Only one thing is for certain though: he loves his <b>garlic bread</b>!!!</p>
+                      <p class="about-me-p" id="about-me-p4">Michael lives with his girlfriend, Marie, and his cat, named Claire. Claire was a shelter cat that Michael rescued 4 years ago.</p>
+<hr />
+        <h2 id="contact-heading"><u>Contact Info</u>:</h2>
+          <blockquote>Michael Friedman<br />
+                    4700 Forest Hill Ln<br />
+                    Missoula, MT 59804<br />
+                    <a href="mailto:notmichaelsemail@umontana.edu">Reach me by email</a>
+          </blockquote>
+            <div class="container">
+              <iframe id="map-of-address" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d4839.60387271442!2d-114.08697743222179!3d46.8277777889531!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sen!2sus!4v1508367082058" allowfullscreen class="img-or-map"></iframe>
+            </div>
+              <audio autoplay>
+                <source src="../media/RelaxingPiano.ogg" />
+                  <source src="../media/RelaxingPiano.mp3" />
+                    <p>This browser does not support our audio format.</p>
+              </audio>
 <br />
+<br />
+<br />
+<hr />
       <a href="../index.html">Back to Home</a>
     </body>
 </html>
