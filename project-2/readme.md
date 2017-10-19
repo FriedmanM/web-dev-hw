@@ -34,3 +34,8 @@ Cool! So you use ```..``` and ```.``` to specify folder structures for internal 
 The ```id``` function will be very useful as well, especially if you want to link to a specific section of a page!
 
 I really liked the table making. It was a little confusing at first, but the outcome was great. The instructions page I made came out great.
+
+### Final Thoughts:
+I really enjoyed learning more about CSS styles and more display type tags for HTML. It was cool to delve into classes a bit. Embedding Audio and Video was very fun!
+
+Can't wait to learn more!
