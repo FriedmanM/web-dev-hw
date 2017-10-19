@@ -11,6 +11,12 @@
               background-color: lightgreen;
               padding-bottom: 400px;
               margin-left: 12px;}
+        h1    {margin-top: 14px;
+               margin-bottom: 3px;}
+        h2    {margin-top: 12px;
+               margin-bottom: 3px;}
+        h3    {margin-top: 0;
+               margin-bottom: 0;}
         .container {
                     position: relative;
                     width: 100%;
@@ -22,13 +28,24 @@
               left: 0;
               width: 100%;
               height: 100%;}
+  /* Styling a link to look like a button! */
+        .button {font: bold 11px Arial;
+                 text-decoration: none;
+                 background-color: #EEEEEE;
+                 color: #333333;
+                 padding: 2px 6px 2px 6px;
+                 border-top: 1px solid #CCCCCC;
+                 border-right: 1px solid #333333;
+                 border-bottom: 1px solid #333333;
+                 border-left: 1px solid #CCCCCC;}
       </style>
     </head>
     <body>
       <h1>Killer Garlic Bread</h1>
         <h3><i>Recipe and website by:</i> <u><i>Michael Friedman</i></u></h3>
           <hr />
-        <h2 id="about-author-heading"><u>About the Author</u>:</h2>
+      <div style="text-align: center;">
+        <h2 id="about-author-heading"><u>About the Author</u>:</h2></div>
           <div class="container">
             <img id="michael-and-cat" class="img-or-map" src="../images/michael-and-cat.jpeg"
              alt="Image of Michael (the author) and his cat" title="Michael Friedman and his cat, Claire" />
@@ -38,24 +55,30 @@
                     <p class="about-me-p" id="about-me-p3">Only one thing is for certain though: he loves his <b>garlic bread</b>!!!</p>
                       <p class="about-me-p" id="about-me-p4">Michael lives with his girlfriend, Marie, and his cat, named Claire. Claire was a shelter cat that Michael rescued 4 years ago.</p>
 <hr />
-        <h2 id="contact-heading"><u>Contact Info</u>:</h2>
-          <blockquote>Michael Friedman<br />
-                    4700 Forest Hill Ln<br />
-                    Missoula, MT 59804<br />
-                    <a href="mailto:notmichaelsemail@umontana.edu">Reach me by email</a>
-          </blockquote>
+      <div style="text-align: center;">
+        <h2 id="contact-heading"><u>Contact Info</u>:</h2></div>
+                 <address><b>Michael Friedman</b><br />
+                              4700 Forest Hill Ln<br />
+                              Missoula, MT 59804</address><br />
+                    <a class="button" href="mailto:notmichaelsemail@umontana.edu">Email Me!</a>
+<br />
+<br />
+<br />
             <div class="container">
               <iframe id="map-of-address" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d4839.60387271442!2d-114.08697743222179!3d46.8277777889531!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sen!2sus!4v1508367082058" allowfullscreen class="img-or-map"></iframe>
             </div>
+             <!--Hidden secret music that you can't turn off -->
+            <!-- <h3>Relaxing music to listen to while you read about me!</h3> -->
               <audio autoplay>
                 <source src="../media/RelaxingPiano.ogg" />
                   <source src="../media/RelaxingPiano.mp3" />
                     <p>This browser does not support our audio format.</p>
               </audio>
 <br />
-<br />
-<br />
 <hr />
-      <a href="../index.html">Back to Home</a>
+      <a class="button" href="../index.html">Back to Home</a>
+<br />
+<br />
+      <a class="button" href="./more-info.html">More about this project...</a>
     </body>
 </html>

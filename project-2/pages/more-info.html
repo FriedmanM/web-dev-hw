@@ -7,20 +7,59 @@
               <meta name="author" content="Michael Friedman" />
             <title>More Information</title>
       <style>
-        body {background-color: lightgreen;
-              padding-bottom: 400px;
-              margin-left: 12px;}
+              body {background-color: lightgreen;
+                    padding-bottom: 400px;
+                    margin-left: 12px;}
+              h1 {margin-top: 14px;
+                  margin-bottom: 3px;}
+              h2 {margin-top: 12px;
+                  margin-bottom: 3px;}
+              h3 {margin-top: 0;
+                  margin-bottom: 0;}
+              .container {
+                          position: relative;
+                          width: 100%;
+                          height: 0;
+                          padding-bottom: 56.25%;}
+              .video {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;}
+        /* Styling a link to look like a button! */
+              .button {font: bold 11px Arial;
+                       text-decoration: none;
+                       background-color: #EEEEEE;
+                       color: #333333;
+                       padding: 2px 6px 2px 6px;
+                       border-top: 1px solid #CCCCCC;
+                       border-right: 1px solid #333333;
+                       border-bottom: 1px solid #333333;
+                       border-left: 1px solid #CCCCCC;}
       </style>
     </head>
-    <body>
-      <h1>Killer Garlic Bread</h1>
-        <h3><i>Recipe and website by:</i> <u><i>Michael Friedman</i></u></h3>
-          <hr />
-        <h2>Information</h2>
-        <p id="more-info-paragraph"></p>
-
-
-      <br />
-      <a href="../index.html">Back to Home</a>
+      <body>
+        <h1>Killer Garlic Bread</h1>
+          <h3><i>Recipe and website by:</i> <u><i>Michael Friedman</i></u></h3>
+<hr />
+          <div style="text-align: center;">
+            <h2><u>About this project</u>:</h2></div><br />
+              <p id="more-info-p1">This project was created to test new tags, css styles, metadata, embedding of audio+video, and continue on the path of learning web design!</p>
+                <p id="more-info-p2">I also happen to really enjoy a good garlic bread, and decided to make this page about how to make it my favorite way.</p><br />
+<hr />
+<br />
+                  <div align="center">
+                    <p id="video-header"><strong>WARNING</strong>: Really gross video. If you do not have a strong constitution, <strong><u>DO NOT WATCH</u>!</strong></p>
+                  </div>
+                    <div class="container">
+                      <iframe class="video" src="https://www.youtube.com/embed/DYS8QXAmo5E?rel=0&amp;controls=0" title="Gross video of guy making nasty garlic bread" alt="Really nasty video of a guy 'making garlic bread'" frameborder="0" allowfullscreen></iframe>
+                    </div>
+<br />
+<hr />
+               <a class="button" href="../index.html">Back to Home</a>
+<br />
+<br />
+               <a class="button" href="./about.html">About the Author</a>
     </body>
 </html>
