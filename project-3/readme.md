@@ -14,3 +14,10 @@ The many selector options are a little overwhelming. I don't think I'll be able 
 ## Project 3:
 
 I am unsure what I want to do this project on yet. Still trying to decide and I don't have much time left.
+1. I have decided to do a blog post style page. It will be nice to be able to incorporate paragraphs with borders around them.
+2. I think I have decided to do a page using the original article posted in the Rolling Stones *Fear and Loathing in Las Vegas* by Hunter S. Thompson in 1971.
+3. I will be citing the [rolling stones page](http://www.rollingstone.com/politics/news/fear-and-loathing-in-las-vegas-19711111?print=true)
+4. I am going to be using a color scheme based off the movie poster ![Movie Poster](./images/movieposter.jpg) or off the cover of his book, Gonzo. ![Gonzo](./images/gonzocover.jpg)
+5. Colors that I may use:
+``#009FEC`` ``#FB8215`` ``#EF3028`` ``#C1DDF2``
+6. I am thinking of using either [Kalem or Open Sans Condensed Font](https://fonts.googleapis.com/css?family=Kalam|Open+Sans+Condensed:300) font packs from Google.

@@ -1,0 +1,22 @@
+body {background-color: #009FEC;
+      padding-bottom: 400px;
+     }
+table {border: 3px solid #EF3028;
+               border-collapse: collapse;
+               background-color: #FB8215;
+               width: 75%;
+               align: center;
+              }
+th, td {border: 3px solid #EF3028;
+        border-collapse: collapse;
+        background-color: #FB8215;
+        width: 75%;
+        color:  #004d99;
+        text-align: center;
+        }
+.nobottom {margin-bottom: 0px;
+           }
+.notop {margin-top: 0px;
+        }
+* {font-family: 'Kalam', cursive;
+   }
