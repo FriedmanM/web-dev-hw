@@ -21,3 +21,8 @@ I am unsure what I want to do this project on yet. Still trying to decide and I 
 5. Colors that I may use:
 ``#009FEC`` ``#FB8215`` ``#EF3028`` ``#C1DDF2``
 6. I am thinking of using either [Kalem or Open Sans Condensed Font](https://fonts.googleapis.com/css?family=Kalam|Open+Sans+Condensed:300) font packs from Google.
+
+## OOPS!
+OK so as usual, I might have gone ahead and done some things that weren't supposed to be done yet.
+
+I created a basic menu at the top with styled links that look like buttons and created almost all the content for the site. I need to start reading the homework section more. :)
