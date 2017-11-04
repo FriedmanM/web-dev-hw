@@ -33,6 +33,12 @@ th, td {
            font-size: 120%;
            line-height: 150%;
           }
+.quotetext {
+           font-family: 'Montserrat', sans-serif;
+           text-align: left;
+           font-size: 90%;
+           line-height: 125%;
+          }
 .container {
             position: relative;
             width: 100%;
