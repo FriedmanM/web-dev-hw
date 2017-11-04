@@ -39,6 +39,13 @@ th, td {
            font-size: 90%;
            line-height: 125%;
           }
+.abouttext {
+            font-family: 'Montserrat', sans-serif;
+            text-align: left;
+            font-size: 100%;
+            line-height: 140%;
+           }
+
 .container {
             position: relative;
             width: 100%;
