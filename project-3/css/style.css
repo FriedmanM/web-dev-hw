@@ -6,14 +6,14 @@ table {
        border: 3px solid #EF3028;
        border-collapse: collapse;
        background-color: #FB8215;
-       width: 75%;
+       width: 65%;
        align: center;
      }
 th, td {
         border: 3px solid #EF3028;
         border-collapse: collapse;
         background-color: #FB8215;
-        width: 75%;
+        width: 65%;
         color:  #004d99;
         text-align: center;
        }
@@ -101,7 +101,7 @@ p         {
            border-bottom: 0px;
            border-collapse: collapse;
            background-color: #FB8215;
-           width: 75%;
+           width: 65%;
            align: center;
           }
 .navcell {
