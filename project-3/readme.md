@@ -22,6 +22,10 @@ I am unsure what I want to do this project on yet. Still trying to decide and I 
 ``#009FEC`` ``#FB8215`` ``#EF3028`` ``#C1DDF2``
 6. I am thinking of using either [Kalem or Open Sans Condensed Font](https://fonts.googleapis.com/css?family=Kalam|Open+Sans+Condensed:300) font packs from Google.
 
+## Colors:
+
+I chose my color pallet based off the colorized photo used on the cover of the book *"Gonzo"*. These colors seem to be a theme among Hunter S. Thompson's photos and art. The movie poster for "Fear and Loathing in Las Vegas" also has similar colors. On top of this, I believe it looks really good when I compliment these colors on my page.
+
 ## OOPS!
 
 OK so as usual, I might have gone ahead and done some things that weren't supposed to be done yet.
