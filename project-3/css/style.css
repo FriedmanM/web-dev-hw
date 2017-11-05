@@ -4,14 +4,14 @@ body {
       padding-bottom: 400px;
      }
 table {
-       border: 3px solid #EF3028;
+       border: 2px solid #EF3028;
        border-collapse: collapse;
        background-color: #FB8215;
        width: 65%;
        align: center;
      }
 th, td {
-        border: 3px solid #EF3028;
+        border: 2px solid #EF3028;
         border-collapse: collapse;
         background-color: #FB8215;
         width: 65%;
@@ -21,7 +21,7 @@ th, td {
 .titleheading {
                margin-top: 6px;
                margin-bottom: 0px;
-               font-family: 'Kalam', cursive;
+               font-family: 'Limelight', cursive;
                font-size: 250%;
                text-border: 2px solid;
               }
@@ -29,19 +29,25 @@ th, td {
         margin-top: 0px;
        }
 .pagetext {
-           font-family: 'Montserrat', sans-serif;
+           font-family: 'Saira Semi Condensed', sans-serif;
            text-align: left;
            font-size: 120%;
            line-height: 150%;
           }
+.firstpagetext {
+                font-family: 'Saira Semi Condensed', sans-serif;
+                text-align: left;
+                font-size: 120%;
+                line-height: 150%;
+               }
 .quotetext {
-           font-family: 'Montserrat', sans-serif;
+           font-family: 'Saira Semi Condensed', sans-serif;
            text-align: left;
            font-size: 90%;
            line-height: 125%;
           }
 .abouttext {
-            font-family: 'Montserrat', sans-serif;
+            font-family: 'Saira Semi Condensed', sans-serif;
             text-align: left;
             font-size: 100%;
             line-height: 140%;
@@ -79,7 +85,7 @@ p         {
                margin-bottom: 0px;
               }
 .button {
-         font-family: 'Kalam', cursive;
+         font-family: 'Montserrat', sans-serif;
          font-weight: bold;
          text-decoration: none;
          background-color: #FB8215;
@@ -92,13 +98,13 @@ p         {
          display:inline-block;
          margin-left: 3px;
          margin-right: 3px;
-         margin-top: 3px;
-         margin-bottom: 3px;
+         margin-top: 2px;
+         margin-bottom: 2px;
         }
 .navtable {
-           border-top: 3px solid #EF3028;
-           border-left: 3px solid #EF3028;
-           border-right: 3px solid #EF3028;
+           border-top: 2px solid #EF3028;
+           border-left: 2px solid #EF3028;
+           border-right: 2px solid #EF3028;
            border-bottom: 0px;
            border-collapse: collapse;
            background-color: #FB8215;
@@ -106,9 +112,9 @@ p         {
            align: center;
           }
 .navcell {
-          border-top: 3px solid #EF3028;
-          border-left: 3px solid #EF3028;
-          border-right: 3px solid #EF3028;
+          border-top: 2px solid #EF3028;
+          border-left: 2px solid #EF3028;
+          border-right: 2px solid #EF3028;
           border-bottom: 0px;
           border-collapse: collapse;
           background-color: #009FEC;
@@ -133,5 +139,15 @@ a:hover {
          text-decoration:underline;
     		}
 em {
-    border: 2px solid #EF3028;
+    border: 2px dashed #EF3028;
    }
+.pagetext::first-letter {
+                         color: black;
+                         font-size: 130%;
+                        }
+p:hover {
+         color: black;
+        }
+quote:hover {
+             color: snow;
+            }
