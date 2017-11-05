@@ -11,18 +11,45 @@
     </style>
   </head>
   <body>
-    <table class="navtable" align="center">
-      <tr>
-        <th class="navcell">
-          <ul id="nav">
-            <li><a class="button" href="../index.html">Home</a></li>
-            <li><a class="button" href="./sample.html">Writing Sample</a></li>
-            <li><a class="button" href="./about.html">About</a></li>
-            <li><a class="button" href="./contact.html">Contact</a></li>
-            <li><a class="button" href="./sources.html">Sources</a></li>
-          </ul>
-        </th>
-      </tr>
-    </table>
+    <nav align="center">
+      <ul id="nav-list">
+        <li><a class="button" href="../index.html">Home</a></li>
+        <li><a class="button" href="./sample.html">Writing Sample</a></li>
+        <li><a class="button" href="./about.html">About</a></li>
+        <li><a class="button" href="./contact.html">Contact</a></li>
+        <li><a class="button" href="./sources.html">Sources</a></li>
+      </ul>
+    </nav>
+    <div id="contact-info" align="center">
+      <h1 style="font-family: Limelight">Contact us!</h1>
+    </div>
+<table align="center">
+  <th>
+      <div id="contact" class="contact">
+      <form action="https://www.example.com/subscribe.php" method="post">
+        <fieldset>
+          <legend>Enter the following:</legend>
+<br />
+            <label>Name:
+              <input type="text" name="name" required />
+            </label>
+<br />
+<br />
+            <label>Email:
+              <input type="email" name="email" id="email" placeholder="email@address.com" required />
+<br />
+<br />
+<p>Comments or Questions:</p>
+            <textarea name="comments" style="min-width: 70%">
+            </textarea>
+<br />
+<br />
+          <input type="submit" value="Submit" /></label>
+        <br>
+      </fieldset>
+    </form>
+  </div>
+</th>
+</table>
   </body>
 </html>
