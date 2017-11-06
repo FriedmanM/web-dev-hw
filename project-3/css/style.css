@@ -43,9 +43,22 @@ th, td {
 .quotetext {
            font-family: 'Saira Semi Condensed', sans-serif;
            text-align: left;
-           font-size: 90%;
+           font-size: 100%;
            line-height: 125%;
+           color: mediumblue;
           }
+.quotetextalt {
+               font-family: 'Saira Semi Condensed', sans-serif;
+               text-align: right;
+               font-size: 110%;
+               line-height: 125%;
+              }
+.review {
+         font-family: 'Saira Semi Condensed', sans-serif;
+         text-align: left;
+         font-size: 125%;
+         line-height: 125%;
+                            }
 .abouttext {
             font-family: 'Saira Semi Condensed', sans-serif;
             text-align: left;
@@ -131,3 +144,10 @@ nav a:hover {
 nav a {
        text-transform: uppercase;
       }
+.bolder {
+         font-size: 120%;
+         color: purple;
+        }
+.bolder:hover {
+               text-decoration: underline;
+              }
