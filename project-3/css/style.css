@@ -1,6 +1,7 @@
 body {
       background-color: #009FEC;
       padding-bottom: 400px;
+      padding-top: 5px;
      }
 table {
        border: 2px solid #EF3028;
@@ -99,18 +100,31 @@ p         {
          font-family: 'Montserrat', sans-serif;
          font-weight: bold;
          text-decoration: none;
-         background-color: #FB8215;
+         background-color: #EF3028;
          color: #333333;
          padding: 8px;
-         border-top: 1px solid #FB8215;
-         border-right: 1px solid #333333;
-         border-bottom: 1px solid #333333;
-         border-left: 1px solid #FB8215;
+         border: 1px;
+         border-style: outset;
          margin-left: -2px;
          margin-right: -2px;
+         align: center;
+         border-color: #EF3028;
         }
+.button:hover {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+  background-color: #FB8215;
+  border-color: #FB8215;
+  color: #333333;
+  padding: 8px;
+  border: 1px;
+  border-style: inset;
+}
 a:hover {
          text-decoration:underline;
+         border-style: inset;
+         border-color: #EF3028;
     		}
 em {
     border: 2px dashed #EF3028;
@@ -127,22 +141,26 @@ quote:hover {
             }
 nav {
      width: 95.5%;
-     background-color: #009FEC;
      line-height: 30px;
     }
 nav ul {
         font-size: 110%;
+        font-weight: bold;
        }
-nav ul li {
+nav li {
            list-style-type: none;
            display: inline-block;
           }
-nav a:hover {
-             background-color: #EF3028;
-            }
 nav a {
        text-transform: uppercase;
       }
+.navth {
+        border-collapse: collapse;
+        background-color: #009FEC;
+        color:  #004d99;
+        text-align: center;
+        border-radius: 25px;
+       }
 .bolder {
          font-size: 120%;
          color: purple;
