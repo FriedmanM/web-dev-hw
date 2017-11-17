@@ -1,22 +1,19 @@
-
 body {
       background-color: #009FEC;
       padding-bottom: 400px;
      }
 table {
        border: 2px solid #EF3028;
-       border-collapse: collapse;
        background-color: #FB8215;
        width: 60%;
-       align: center;
+       border-radius: 25px;
       }
 th, td {
-        border: 2px solid #EF3028;
         border-collapse: collapse;
         background-color: #FB8215;
-        width: 60%;
         color:  #004d99;
         text-align: center;
+        border-radius: 25px;
        }
 .titleheading {
                margin-top: 6px;
@@ -69,6 +66,7 @@ th, td {
             position: relative;
             width: 100%;
             height: 100%;
+            border-radius: 25px;
            }
 .imagesize {
              position: relative;
@@ -77,6 +75,7 @@ th, td {
              width: 100%;
              height: 100%;
              margin-bottom: 0px;
+             border-radius: 25px;
             }
 .bordered {
            border: 2px dashed #004d99;
@@ -88,13 +87,13 @@ p         {
            margin-bottom: 5px;
           }
 .picturebreak {
-               padding-top: 4px;
                position: relative;
                top: 0;
                left: 0;
                width: 100%;
                height: 100%;
-               margin-bottom: 0px;
+               margin-bottom: -4px;
+               border-radius: 25px;
               }
 .button {
          font-family: 'Montserrat', sans-serif;
