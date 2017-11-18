@@ -4,6 +4,7 @@
     <meta name="viewport" content="width-device-width, initial-scale=1.0" />
     <meta name="charset" content="utf-8" />
     <link rel="stylesheet" type="text/css" href="../css/style.css" />
+    <link rel="stylesheet" type="text/css" href="../css/menu.css" />
     <link href="https://fonts.googleapis.com/css?family=Montserrat|Limelight" rel="stylesheet">
       <title>Contact Me!</title>
     <style>
@@ -11,15 +12,22 @@
     </style>
   </head>
   <body>
-    <nav align="center">
-      <ul id="nav-list">
-        <li><a class="button" href="../index.html">Home</a></li>
-        <li><a class="button" href="./sample.html">Writing Sample</a></li>
-        <li><a class="button" href="./about.html">About</a></li>
-        <li><a class="button" href="./sourcepage.html">Sources</a></li>
-        <li><a class="button" href="./contact.html">Contact</a></li>
-      </ul>
-    </nav>
+    <header>
+      <menu>
+        <ul id="nav-list">
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="./sample.html">Writing Sample</a></li>
+          <li><a href="./about.html">About</a></li>
+          <li><a href="./contact.html">Contact</a></li>
+          <li class="dropdown"><a href="#">Sources</a>
+              <ul class="dropdown-content">
+                <li class="dropdown-item"><a href="http://www.rollingstone.com/politics/news/fear-and-loathing-in-las-vegas-19711111">Rolling Stones</a></li>
+                <li class="dropdown-item"><a href="./sourcepage.html">...More</a></li>
+              </ul>
+          </li>
+        </ul>
+    </menu>
+  </header>
 <br />
 <!-- Hunter S. Thompson is no longer with us, so I made the form to contact me, the web designer. -->
     <table id="header" align="center">

@@ -1,0 +1,87 @@
+/*------------------------------
+| Horizontal Menu (top of page) |
+-------------------------------*/
+
+header {
+  background-color: #FB8215;
+  margin: auto;
+  width: 60%;
+
+  border: 2px solid #EF3028;
+  border-radius: 25px;
+}
+
+menu {
+  height: inherit;
+  line-height: 40px;
+  margin: 5px;
+  padding: 10px !important;
+  background-color: #009FEC;
+  border-radius: inherit;
+}
+
+menu ul {
+  font-size: 110%;
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  padding: inherit;
+  text-align: center;
+}
+menu li {
+  display: inline;
+  margin-right: -5px !important;
+  list-style-type: none;
+  padding: 9px;
+
+  background-color: #EF3028;
+  border: 1px;
+  border-style: outset;
+  border-color: #EF3028;
+}
+menu li a {
+  text-decoration: none;
+  color: #333333;
+}
+menu li:hover {
+  background-color: #FB8215;
+  border: 1px;
+  border-style: inset;
+  border-color: #FB8215;
+}
+
+menu .dropdown {
+    display: inline-block;
+    padding: 0;
+    min-width: 7em;
+}
+
+/* This styles the dropdown list of the menu:*/
+menu .dropdown-content {
+    display: none;
+    position: absolute;
+    margin: 0;
+    z-index: 1;
+    background-color: #EF3028;
+    border: 1px;
+    border-style: outset;
+    border-color: #EF3028;
+}
+menu .dropdown-content a {
+    text-decoration: none;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+menu .dropdown-item {
+    display: block;
+    width: 100%;
+    text-align: left;
+    min-width: 8em;
+    border: none;
+}
+.dropdown-item:hover {
+  background-color: #FB8215;
+  border: none !important;
+  border-style: none !important;
+}
