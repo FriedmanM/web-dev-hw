@@ -31,3 +31,9 @@ I chose my color pallet based off the colorized photo used on the cover of the b
 OK so as usual, I might have gone ahead and done some things that weren't supposed to be done yet.
 
 I created a basic menu at the top with styled links that look like buttons and created almost all the content for the site. I need to start reading the homework section more. :)
+
+## Needed help
+
+I was extremely overwhelmed by this project. I strive for perfection and I put probably 18 hours into this page. I finally had to contact the instructor because I was in the middle of changing jobs as well as balancing life and school. Luckily for me she helped me tremendously by creating a menu stylesheet and a new navigation menu. I applied some touches to it and placed it on each page. Now I am ready to sleep this entire weekend.
+
+# END
