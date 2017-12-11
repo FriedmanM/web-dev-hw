@@ -1,0 +1,115 @@
+body {
+      background-color: #151618;
+      margin-top: -20px;
+      margin-bottom: 200px;
+     }
+.catchy-pic {
+      position: relative;
+      align-content: center;
+      height: auto;
+      max-width: 100%;
+		        }
+.catchy-pic2 {
+              position: relative;
+              align-content: center;
+              height: auto;
+              max-width: 100%;
+             }
+.picturecontainer {
+                   position: relative;
+                   width: 100%;
+                   height: 100%;
+                  }
+a {
+	 color: black;
+  }
+p {
+   padding-left: 18px;
+   font-family: 'Ubuntu', sans-serif;
+   font-size: 18px;
+   font-weight: 600;
+   }
+h1 {
+    font-family: 'Merriweather', serif;
+    font-size: 34px;
+    font-weight: 700;
+    padding-top: 20px;
+   }
+h2 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    padding-left: 5px;
+   }
+#Entire-Container {
+	                 display: inline-flex;
+	                 flex-wrap: wrap;
+                  }
+.wrap-around {
+              width: 100%;
+              height: 100%;
+             }
+
+.wa-header {
+	         background-color: silver;
+	         width: 100%;
+	         text-align: center;
+	         order: 1;
+           color: white;
+           width: 100%;
+           height: 100%;
+           border: 3px black;
+          }
+
+.wa-leftbox {
+	           background-color: lightblue;
+	           width: 50%;
+	           text-align: left;
+	           order: 2;
+	           align-content: center;
+	           height: auto;
+             color: #eff0eb;
+            }
+
+.wa-rightbox {
+	            background-color: lightblue;
+	            width: 50%;
+	            order: 3;
+	            height: auto;
+              align-content: center;
+              text-align: center;
+              }
+.wa-footer1 {
+             background-color: blue;
+             width: 100%;
+             text-align: left;
+             order: 4;
+             color: white;
+            }
+.wa-footer2 {
+	           background-color:#7f7a80;
+	           width: 100%;
+	           text-align: left;
+	           order: 5;
+             color: white;
+            }
+@media screen and (max-width: 700px) {
+           .picturecontainer {
+                              width: 100%;
+                             }
+           .greyblue {
+		                  width: 100%;
+	                   }
+           .wa-leftbox {
+     	                  width: 100%;
+	                     }
+           .wa-rightbox {
+                         width: 100%;
+	                      }
+           .wa-footer1 {
+                        width: 100%;
+	                    }
+           .wa-footer2 {
+                        width: 100%;
+           	           }
+                                        }
